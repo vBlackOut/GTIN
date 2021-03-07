@@ -1,59 +1,59 @@
 Test on 10 barcode random generated
-2021-03-07 01:46:59,324.324 INFO main - test_barcode: result '05661722' return function: False excepted return: False
-2021-03-07 01:46:59,324.324 INFO main - test_barcode: result '031154055452' return function: False excepted return: False
-2021-03-07 01:46:59,325.325 INFO main - test_barcode: result '848634132553' return function: False excepted return: False
-2021-03-07 01:46:59,325.325 INFO main - test_barcode: result '81235338054780' return function: False excepted return: False
-2021-03-07 01:46:59,325.325 INFO main - test_barcode: result '215026001226' return function: False excepted return: False
-2021-03-07 01:46:59,325.325 INFO main - test_barcode: result '701153813086' return function: False excepted return: False
-2021-03-07 01:46:59,325.325 INFO main - test_barcode: result '2462342563560' return function: False excepted return: False
-2021-03-07 01:46:59,325.325 INFO main - test_barcode: result '23167824774014114' return function: False excepted return: False
-2021-03-07 01:46:59,325.325 INFO main - test_barcode: result '527332812546527157' return function: False excepted return: False
-2021-03-07 01:46:59,325.325 INFO main - test_barcode: result '166882722735854746' return function: False excepted return: False
+2021-03-07 01:49:07,675.675 INFO main - test_barcode: result '27343760201777885' return function: False excepted return: False
+2021-03-07 01:49:07,675.675 INFO main - test_barcode: result '23584103353844' return function: False excepted return: False
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '07718585261671075' return function: False excepted return: False
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '23278742' return function: False excepted return: False
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '46672728' return function: True excepted return: True
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '78411086005842250' return function: False excepted return: False
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '250317606273804163' return function: False excepted return: False
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '430070065148' return function: False excepted return: False
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '84383716257378830' return function: False excepted return: False
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '76033006665273' return function: True excepted return: True
 Success
 
 Test on barcode Alkemics list
-2021-03-07 01:46:59,325.325 INFO main - test_barcode: result '6291041500213' return function: True excepted return: True
-2021-03-07 01:46:59,325.325 INFO main - test_barcode: result '6291041500211' return function: False excepted return: False
-2021-03-07 01:46:59,325.325 INFO main - test_barcode: result '3124482010481' return function: True excepted return: True
-2021-03-07 01:46:59,325.325 INFO main - test_barcode: result '3124482010482' return function: False excepted return: False
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '3124482010483' return function: False excepted return: False
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '3124482010484' return function: False excepted return: False
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '3124482010485' return function: False excepted return: False
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '3124482010486' return function: False excepted return: False
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '3124482010487' return function: False excepted return: False
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '3124482010488' return function: False excepted return: False
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '3124482010489' return function: False excepted return: False
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '3124482010480' return function: False excepted return: False
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '0167053164698' return function: True excepted return: True
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '13033490913240' return function: True excepted return: True
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '13033490913240.00' return function: False excepted return: False
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '123456017450' return function: True excepted return: True
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '12345670' return function: True excepted return: True
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '000000000000000000000' return function: False excepted return: False
-2021-03-07 01:46:59,326.326 INFO main - test_barcode: result '00000000000000000000' return function: False excepted return: False
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '0000000000000000000' return function: False excepted return: False
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '000000000000000000' return function: True excepted return: True
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '00000000000000000' return function: True excepted return: True
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '0000000000000000' return function: False excepted return: False
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '000000000000000' return function: False excepted return: False
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '00000000000000' return function: True excepted return: True
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '0000000000000' return function: True excepted return: True
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '000000000000' return function: True excepted return: True
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '00000000000' return function: False excepted return: False
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '0000000000' return function: False excepted return: False
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '000000000' return function: False excepted return: False
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '00000000' return function: True excepted return: True
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '0000000' return function: False excepted return: False
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '000000' return function: False excepted return: False
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '00000' return function: False excepted return: False
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '0000' return function: False excepted return: False
-2021-03-07 01:46:59,327.327 INFO main - test_barcode: result '000' return function: False excepted return: False
-2021-03-07 01:46:59,328.328 INFO main - test_barcode: result '00' return function: False excepted return: False
-2021-03-07 01:46:59,328.328 INFO main - test_barcode: result '0' return function: False excepted return: False
-2021-03-07 01:46:59,328.328 INFO main - test_barcode: result 'zerozerozerozero' return function: False excepted return: False
-2021-03-07 01:46:59,328.328 INFO main - test_barcode: result 'I am not a GTIN!4' return function: False excepted return: False
-2021-03-07 01:46:59,328.328 INFO main - test_barcode: result '0000OOOO000000000' return function: False excepted return: False
-2021-03-07 01:46:59,328.328 INFO main - test_barcode: result 'ßþéçíæL ĉĥâ®åCẗëR§ ΅œ’' return function: False excepted return: False
-2021-03-07 01:46:59,328.328 INFO main - test_barcode: result '[0, 0, 0, 0, 0, 0, 0, 0]' return function: False excepted return: False
-2021-03-07 01:46:59,328.328 INFO main - test_barcode: result '3124482010481' return function: False excepted return: False
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '6291041500213' return function: True excepted return: True
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '6291041500211' return function: False excepted return: False
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '3124482010481' return function: True excepted return: True
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '3124482010482' return function: False excepted return: False
+2021-03-07 01:49:07,676.676 INFO main - test_barcode: result '3124482010483' return function: False excepted return: False
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '3124482010484' return function: False excepted return: False
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '3124482010485' return function: False excepted return: False
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '3124482010486' return function: False excepted return: False
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '3124482010487' return function: False excepted return: False
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '3124482010488' return function: False excepted return: False
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '3124482010489' return function: False excepted return: False
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '3124482010480' return function: False excepted return: False
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '0167053164698' return function: True excepted return: True
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '13033490913240' return function: True excepted return: True
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '13033490913240.00' return function: False excepted return: False
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '123456017450' return function: True excepted return: True
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '12345670' return function: True excepted return: True
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '000000000000000000000' return function: False excepted return: False
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '00000000000000000000' return function: False excepted return: False
+2021-03-07 01:49:07,677.677 INFO main - test_barcode: result '0000000000000000000' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '000000000000000000' return function: True excepted return: True
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '00000000000000000' return function: True excepted return: True
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '0000000000000000' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '000000000000000' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '00000000000000' return function: True excepted return: True
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '0000000000000' return function: True excepted return: True
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '000000000000' return function: True excepted return: True
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '00000000000' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '0000000000' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '000000000' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '00000000' return function: True excepted return: True
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '0000000' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '000000' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '00000' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '0000' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '000' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '00' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result '0' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result 'zerozerozerozero' return function: False excepted return: False
+2021-03-07 01:49:07,678.678 INFO main - test_barcode: result 'I am not a GTIN!4' return function: False excepted return: False
+2021-03-07 01:49:07,679.679 INFO main - test_barcode: result '0000OOOO000000000' return function: False excepted return: False
+2021-03-07 01:49:07,679.679 INFO main - test_barcode: result 'ßþéçíæL ĉĥâ®åCẗëR§ ΅œ’' return function: False excepted return: False
+2021-03-07 01:49:07,679.679 INFO main - test_barcode: result '[0, 0, 0, 0, 0, 0, 0, 0]' return function: False excepted return: False
+2021-03-07 01:49:07,679.679 INFO main - test_barcode: result '3124482010481' return function: False excepted return: False
 Success
