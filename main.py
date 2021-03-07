@@ -7,12 +7,15 @@ logger = logging.getLogger(__name__)
 class GTIN():
 
     def __init__(self):
-        logging.basicConfig(level=logging.INFO)
+        logging.basicConfig(
+            level=logging.INFO,
+            format='%(asctime)s.%(msecs)03d %(levelname)s %(module)s - %(funcName)s: %(message)s'
+        )
 
     def debug(self, value, level=""):
 
         logger.setLevel(getattr(logging, level))
-        
+
         if type(value) == bool:
             logger.propagate = value
         else:
