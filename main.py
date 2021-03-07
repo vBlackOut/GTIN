@@ -183,5 +183,9 @@ if "__main__" == __name__:
     ]
 
     gtin.checkbarcode("3124482010481") # return True
-    gtin.generator_barcode(barcode_lenght=[8,12,13,14,17,18], number_barcode=1000, status_barcode=True) # return generate test 1000 barcode, return just barcode of status True barcode of lenght variable 8-18
+    list_barcode = gtin.generator_barcode(barcode_lenght=[8,12,13,14,17,18], number_barcode=10, status_barcode=None) # return generate test 1000 barcode, return just barcode of status True barcode of lenght variable 8-18
+    print("Test on 10 barcode random generated")
+    print(gtin.test_barcode(list_barcode))
+    print()
+    print("Test on barcode Alkemics list")
     print(gtin.test_barcode(test_cases)) # return Success
