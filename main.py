@@ -11,16 +11,8 @@ class GTIN():
 
     def debug(self, value, level=""):
 
-        if level != "" and type(level) == str:
-            if level == "INFO":
-                logging.getLogger().setLevel(logging.INFO)
-            elif level == "DEBUG":
-                logging.getLogger().setLevel(logging.DEBUG)
-            elif level == "WARNING":
-                logging.getLogger().setLevel(logging.WARNING)
-        else:
-            raise "Error debug level please define DEBUG, INFO or WARNING"
-
+        logger.setLevel(getattr(logging, level))
+        
         if type(value) == bool:
             logger.propagate = value
         else:
@@ -47,7 +39,7 @@ class GTIN():
         elif lenght_barcode == 18:
             lenght_barcode = (0, 18)
         else:
-            logger.warning('Error barcode "{}" lenght string == "{}" not in [8, 12, 13, 14, 17, 18] '.format(value, lenght_barcode))
+            logger.debug('Error barcode "{}" lenght string == "{}" not in [8, 12, 13, 14, 17, 18] '.format(value, lenght_barcode))
             return False
 
         sum_digital = 0
@@ -56,24 +48,24 @@ class GTIN():
         for i, digital in enumerate(value[:-1]):
 
             if i % 2 == lenght_barcode[0]:
-                logger.info("pos : {}, calcule : 3 * {} = {}".format(i, int(digital), int(digital)*3))
+                logger.debug("pos : {}, calcule : 3 * {} = {}".format(i, int(digital), int(digital)*3))
                 list_calcule_addition.append(int(digital)*3)
             else:
-                logger.info("pos : {}, calcule : 1 * {} = {}".format(i, int(digital), int(digital)*1))
+                logger.debug("pos : {}, calcule : 1 * {} = {}".format(i, int(digital), int(digital)*1))
                 list_calcule_addition.append(int(digital))
 
         sum_digital = sum(list_calcule_addition)
-        logger.info("list {} total {}".format(list_calcule_addition, sum_digital))
+        logger.debug("list {} total {}".format(list_calcule_addition, sum_digital))
 
         calcule_checksum = self.calculechecksum(sum_digital) - sum_digital
 
         calcule_ten = (len(str(calcule_checksum)), str(calcule_checksum))
 
         if value[-calcule_ten[0]:] == calcule_ten[1]:
-            logger.info("string: {}, end: {}, calcule end: {}, len end: {}, return True".format(value, str(value)[-calcule_ten[0]:], calcule_checksum, calcule_ten[0]))
+            logger.debug("string: {}, end: {}, calcule end: {}, len end: {}, return True".format(value, str(value)[-calcule_ten[0]:], calcule_checksum, calcule_ten[0]))
             return True
         else:
-            logger.warning("string: {}, end: {}, calcule end: {}, len end: {}, return False".format(value, str(value)[-calcule_ten[0]:], calcule_checksum, calcule_ten[0]))
+            logger.debug("string: {}, end: {}, calcule end: {}, len end: {}, return False".format(value, str(value)[-calcule_ten[0]:], calcule_checksum, calcule_ten[0]))
             return False
 
     def calculechecksum(self, value):
@@ -126,6 +118,7 @@ class GTIN():
             # is_valid_barcode(test)
             try:
                 result = self.checkbarcode(test)
+                logger.info("result '{}' return function: {} excepted return: {}".format(test, result, expected))
             except Exception as e:
                 return "Failed: %s -> %s" % (test, e)
                 raise
@@ -137,7 +130,7 @@ class GTIN():
 
 if "__main__" == __name__:
     gtin = GTIN()
-    gtin.debug(True, "DEBUG")
+    gtin.debug(True, "INFO")
 
     test_cases = [
         ('6291041500213', True), # <--- example of the spec
